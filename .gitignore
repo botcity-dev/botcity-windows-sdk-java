@@ -1,3 +1,9 @@
+# Eclipse Settings
+.settings/
+
+# Binaries
+target/
+
 # Compiled class file
 *.class
 

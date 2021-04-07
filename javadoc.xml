@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="C:\Users\gvome\.m2\repository\xmlpull\xmlpull\1.1.3.4d_b4_min\xmlpull-1.1.3.4d_b4_min.jar;C:\Users\gvome\.m2\repository\com\positiondev\epublib\epublib-core\3.1\epublib-core-3.1.jar;C:\Users\gvome\.m2\repository\net\java\dev\jna\jna\5.6.0\jna-5.6.0.jar;C:\Users\gvome\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\gvome\.m2\repository\net\sf\kxml\kxml2\2.3.0\kxml2-2.3.0.jar;C:\Users\gvome\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;target/test-classes;C:\Users\gvome\.m2\repository\net\java\dev\jna\jna-platform\5.6.0\jna-platform-5.6.0.jar;C:\Users\gvome\.m2\repository\org\slf4j\slf4j-simple\1.6.1\slf4j-simple-1.6.1.jar;C:\Users\gvome\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" source="1.8" sourcefiles="src/main/java/br/com/gvom/WindowHandlerPlugin/Service.java,src/main/java/br/com/gvom/WindowHandlerPlugin/Application.java,src/main/java/br/com/gvom/WindowHandlerPlugin/Actions.java" sourcepath="src/main/java;src/test/java" splitindex="true" use="true" version="true"/>
+    </target>
+</project>
