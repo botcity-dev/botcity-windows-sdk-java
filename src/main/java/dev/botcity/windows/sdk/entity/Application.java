@@ -1,12 +1,12 @@
-package dev.botcity.windows.sdk;
+package dev.botcity.windows.sdk.entity;
 
 import com.sun.jna.platform.win32.WinUser;
 
 /**
  * <code>Application</code> is a class that contains the info about the application.
  * 
- * @see dev.botcity.windows.sdk.WindowsSDK
- * @see dev.botcity.windows.sdk.Service
+ * @see dev.botcity.windows.sdk.execute.WindowsSDK
+ * @see dev.botcity.windows.sdk.entity.Service
  * 
  * @author <a href="https://github.com/gvom">Gabriel Meneses</a>
  */
