@@ -408,7 +408,7 @@ public class WindowsSDK {
 	public static List<Application> getApplicationByTitle(String title) throws IOException {
 		List<Application> list = getApplications();
 		
-		return list.stream().filter(o -> o.getWindowTitle().equals(title)).collect(Collectors.toList());
+		return list.stream().filter(o -> o.getWindowTitle().contains(title)).collect(Collectors.toList());
 	}
 	
 	/**
@@ -538,5 +538,23 @@ public class WindowsSDK {
 			}
 		}
 		return null;
-	}	
+	}
+	
+	/**
+	 *
+	 * Get the total of memory avalible for the machine.
+	 * 
+	 */
+	public static long getTotalMemoryMachine() {
+		return Runtime.getRuntime().totalMemory();
+	}
+	
+	/**
+	 *
+	 * Get the free memory avalible for the machine.
+	 * 
+	 */
+	public static long getFreeMemoryMachine() {
+		return Runtime.getRuntime().freeMemory();
+	}
 }
