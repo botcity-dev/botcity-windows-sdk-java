@@ -1,10 +1,10 @@
-package dev.botcity.windows.sdk;
+package dev.botcity.windows.sdk.entity;
 
 /**
  * <code>Service</code> is a class that contains the info about the service.
  * 
- * @see dev.botcity.windows.sdk.WindowsSDK
- * @see dev.botcity.windows.sdk.Application
+ * @see dev.botcity.windows.sdk.execute.WindowsSDK
+ * @see dev.botcity.windows.sdk.entity.Application
  * 
  * @author <a href="https://github.com/gvom">Gabriel Meneses</a>
  */
